@@ -32,6 +32,7 @@ import guru from "./img/song-thumb/guru.png";
 import kodi from "./img/song-thumb/kodi.png";
 import manithan from "./img/song-thumb/manithan.png";
 import oh_manapenne from "./img/song-thumb/oh-manapennae.png";
+import LubberPandhu from "./img/song-thumb/LubberPandhu.png"
 
 import tensromance from "./img/10s-romance-tamil.jpg";
 import arrmix from "./img/arr-mix.jpg";
@@ -41,6 +42,7 @@ import munpanikaadhal from "./img/munpani-kaadhal.jpg";
 import purelykaadhal from "./img/purely-kaadhal.jpg";
 import romanticanirudh from "./img/romantic-anirudh.jpg";
 import yuvan from "./img/yuvan.jpg";
+import Mithilesh from "./img/Mithilesh.png"
 
 import aaruyire from "./songs/Aaruyire.mp3";
 import naanpilaipeno from "./songs/Naan-Pizhaippeno.mp3";
@@ -50,6 +52,7 @@ import anbeenanbe from "./songs/Anbe-En-Anbe.mp3";
 import poivalva from "./songs/Poi-Vazhva.mp3";
 import sirukkivaasasm from "./songs/Sirukki-Vaasam.mp3";
 import bodhaikaname from "./songs/Bodhai-Kaname.mp3";
+import Chillanjirukkiye from "./songs/Chillanjirukkiye.mp3"
 
 export const assets = {
   bell_icon,
@@ -135,6 +138,13 @@ export const albumsData = [
     desc: "Love and more love from Aadhi",
     bgColor: "#4E3822",
   },
+  {
+    id: 8,
+    name: "Uthay Hits",
+    image: Mithilesh,
+    desc: "Romance and more care from Kanth",
+    bgColor: "#4E3822",
+  },
 ];
 
 export const songsData = [
@@ -201,5 +211,13 @@ export const songsData = [
     file: bodhaikaname,
     desc: "Put a smile on your face with these happy tunes",
     duration: "4:22",
+  },
+  {
+    id: 8,
+    name: "Chillanjirukkiye",
+    image: LubberPandhu,
+    file: Chillanjirukkiye,
+    desc: "Put a smile on your face with these happy tunes",
+    duration: "04:07",
   },
 ];
