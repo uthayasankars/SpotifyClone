@@ -33,6 +33,8 @@ import kodi from "./img/song-thumb/kodi.png";
 import manithan from "./img/song-thumb/manithan.png";
 import oh_manapenne from "./img/song-thumb/oh-manapennae.png";
 import LubberPandhu from "./img/song-thumb/LubberPandhu.png"
+import Nimir from "./img/song-thumb/Nimir.jpg"
+import Asuran from "./img/song-thumb/Asuran.jpg"
 
 import tensromance from "./img/10s-romance-tamil.jpg";
 import arrmix from "./img/arr-mix.jpg";
@@ -43,6 +45,8 @@ import purelykaadhal from "./img/purely-kaadhal.jpg";
 import romanticanirudh from "./img/romantic-anirudh.jpg";
 import yuvan from "./img/yuvan.jpg";
 import Mithilesh from "./img/Mithilesh.png"
+import Nenjil_Nimir from "./img/Nenjil_Nimir.jpg"
+import Asuran_Mithlesh from "./img/Asuran_Mithlesh.jpg"
 
 import aaruyire from "./songs/Aaruyire.mp3";
 import naanpilaipeno from "./songs/Naan-Pizhaippeno.mp3";
@@ -53,6 +57,8 @@ import poivalva from "./songs/Poi-Vazhva.mp3";
 import sirukkivaasasm from "./songs/Sirukki-Vaasam.mp3";
 import bodhaikaname from "./songs/Bodhai-Kaname.mp3";
 import Chillanjirukkiye from "./songs/Chillanjirukkiye.mp3"
+import Nenjil_Mamazhai from "./songs/Nenjil_Mamazhai.mp3"
+import Ellu_Vaya from "./songs/Ellu_Vaya.mp3"
 
 export const assets = {
   bell_icon,
@@ -145,6 +151,20 @@ export const albumsData = [
     desc: "Romance and more care from Kanth",
     bgColor: "#4E3822",
   },
+  {
+    id: 9,
+    name: "Mithi Hits",
+    image: Nenjil_Nimir,
+    desc: "Romance and more care from Kanth",
+    bgColor: "#4E3822",
+  },
+   {
+    id: 10,
+    name: "Bablu Hits",
+    image: Asuran_Mithlesh,
+    desc: "Feelings and more care from mom",
+    bgColor: "#4E3822",
+  },
 ];
 
 export const songsData = [
@@ -219,5 +239,21 @@ export const songsData = [
     file: Chillanjirukkiye,
     desc: "Put a smile on your face with these happy tunes",
     duration: "04:07",
+  },
+  {
+    id: 9,
+    name: "Nenjil_Mamazhai",
+    image: Nimir,
+    file: Nenjil_Mamazhai,
+    desc: "Put a smile on your face with these happy tunes",
+    duration: "04:07",
+  },
+  {
+    id: 10,
+    name: "Ellu_Vaya",
+    image: Asuran,
+    file: Ellu_Vaya,
+    desc: "Put a smile on your face with these happy tunes",
+    duration: "05:54",
   },
 ];
